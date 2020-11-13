@@ -1,10 +1,9 @@
 import React from 'react';
 import { render } from "@testing-library/react";
-import App from '../App';
+import App from '../components/counter';
 import { Provider } from "react-redux";
 import userEvent from '@testing-library/user-event';
-import store from "../redux/store.js";
-
+import store from "../redux/store";
 
 const AppComponent = () => {
   return render(

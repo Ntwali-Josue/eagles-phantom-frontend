@@ -4,7 +4,7 @@ const ip = require("ip");
 const hostname = ip.address() || "localhost";
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/index",
   output: { path: path.join(__dirname, "/dist"), filename: "bundle.js" },
   devServer: {
     contentBase: path.resolve(__dirname, "./build"),
