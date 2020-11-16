@@ -1,0 +1,27 @@
+.search{
+  display: flex;
+  flex-direction: column;
+  background-color: #1D1745;
+  align-items: center;
+  height: 15vh;
+  margin-top:10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.search-input button {
+  padding: 0.9rem;
+  width: 10rem;
+  border-radius: 0.6rem;
+  outline: none;
+  border: none;
+  color: #1D1745;
+  background-color: #d8e2e2;
+}
+.search-input select{
+  padding: 0.8rem;
+  width: 20rem;
+  border-radius: 0.6rem;
+  margin: 1rem;
+  border: none;
+  outline: none;
+}
