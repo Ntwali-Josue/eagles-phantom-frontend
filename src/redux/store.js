@@ -1,6 +1,6 @@
 import { createStore, compose, applyMiddleware, combineReducers } from "redux";
 import thunk from "redux-thunk";
-import counterReducer from "../redux/reducers/counter";
+import counterReducer from "../redux/reducers/reducerLogout";
 
 const rootReducer = combineReducers({
   count: counterReducer,

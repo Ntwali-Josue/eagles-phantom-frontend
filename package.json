@@ -37,6 +37,7 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.5",
     "@webpack-cli/init": "^1.0.3",
+    "axios": "^0.21.0",
     "babel-loader": "^8.2.1",
     "html-webpack-plugin": "^4.5.0",
     "react": "^17.0.1",
