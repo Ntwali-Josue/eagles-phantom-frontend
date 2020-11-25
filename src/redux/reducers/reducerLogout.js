@@ -2,18 +2,32 @@ import * as actionTypes from "../types/counterTypes";
 
 const initialState = {
     loading: 'none',
-    data: []
-    
+    token: {},
+    error:''
 };
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case actionTypes.LOGOUT:
+
+    case actionTypes.LOGOUT_REQUEST:
       return { 
           ...state, 
-          data: action.playload
+          loading:'block'
         };
-    
+    case actionTypes.LOGOUT_SUCCESS:
+      return { 
+          ...state, 
+          loading:'none', 
+          token: action.playload,
+          error:''
+        };
+    case actionTypes.LOGOUT_ERROR:
+          return { 
+              ...state, 
+              loading:'none',
+              token:{},
+              error: action.playload
+            };
 
     default:
       return state;

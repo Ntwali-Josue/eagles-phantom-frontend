@@ -1,13 +1,13 @@
-import * as actionTypes from '../types/counterTypes';
+// import * as actionTypes from '../types/counterTypes';
 
-export const increment = () => {
-    return {
-        type: actionTypes.INCREMENT
-    }
-}
+// export const increment = () => {
+//     return {
+//         type: actionTypes.INCREMENT
+//     }
+// }
 
-export const decrement = () => {
-    return {
-        type: actionTypes.DECREMENT
-    }
-}
+// export const decrement = () => {
+//     return {
+//         type: actionTypes.DECREMENT
+//     }
+// }
