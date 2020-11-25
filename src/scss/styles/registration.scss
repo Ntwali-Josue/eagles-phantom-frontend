@@ -1,0 +1,17 @@
+@import "../variables/variables.scss"; //import is very important (a must)
+
+#form {
+  background-color: rgba(85, 72, 167, 0.397);
+  color: $color-primary;
+  text-align: center;
+  margin: 10% 10% 0% 10%;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+#registration {
+  background-image: url('https://res.cloudinary.com/bomayee/image/upload/v1606406000/eagles-phantom/hobi-industri-C-zgN_LEKb8-unsplash_auuccu.jpg');
+  background-size: cover;
+  padding: 20px 10px;
+  height: 90vh;
+}

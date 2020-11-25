@@ -1,4 +1,4 @@
-import * as actionTypes from "../types/counterTypes";
+import * as types from "../types/counterTypes";
 
 const initialState = {
   value: 0,
@@ -6,9 +6,9 @@ const initialState = {
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case actionTypes.INCREMENT:
+    case types.INCREMENT:
       return { ...state, value: state.value + 1 };
-    case actionTypes.DECREMENT:
+    case types.DECREMENT:
       return { ...state, value: state.value - 1 };
 
     default:
